@@ -55,7 +55,7 @@ HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/moviesbotchannel')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001739757555)
-RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001739757555)
+RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001739757555))
 
 # Bot Options
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
